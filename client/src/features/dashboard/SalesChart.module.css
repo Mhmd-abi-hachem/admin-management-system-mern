@@ -1,0 +1,61 @@
+.salesChart {
+  grid-column: 1 / -1;
+  background-color: var(--color-grey-0);
+  border: 1px solid var(--color-grey-100);
+  border-radius: var(--border-radius-md);
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.salesChart :global(.recharts-cartesian-grid-horizontal line),
+.salesChart :global(.recharts-cartesian-grid-vertical line) {
+  stroke: var(--color-grey-300);
+}
+
+@media (max-width: 768px) {
+  .salesChart {
+    padding: 2rem !important;
+    gap: 1.6rem;
+  }
+
+  .salesChart :global(.recharts-x-axis .recharts-cartesian-axis-tick text),
+  .salesChart :global(.recharts-y-axis .recharts-cartesian-axis-tick text) {
+    font-size: 10px !important;
+  }
+
+  .salesChart :global(.recharts-tooltip-wrapper) {
+    transform: scale(0.9);
+    transform-origin: center;
+  }
+
+  .salesChart :global(.recharts-legend-wrapper) {
+    bottom: -20px !important;
+  }
+
+  .salesChart :global(.recharts-area) {
+    stroke-width: 1.5 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .salesChart {
+    padding: 2rem 0.5rem !important;
+    gap: 1.2rem;
+  }
+
+  .salesChart :global(.recharts-x-axis .recharts-cartesian-axis-tick text),
+  .salesChart :global(.recharts-y-axis .recharts-cartesian-axis-tick text) {
+    font-size: 7px !important;
+  }
+
+  .salesChart :global(.recharts-tooltip-wrapper) {
+    transform: scale(0.8);
+  }
+
+  .salesChart :global(.recharts-responsive-container) {
+    margin-top: 2rem;
+    height: 300px !important;
+  }
+}

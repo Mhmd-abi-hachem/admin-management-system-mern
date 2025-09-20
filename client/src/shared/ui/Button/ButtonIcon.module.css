@@ -1,0 +1,17 @@
+.buttonIcon {
+  background: none;
+  border: none;
+  padding: 0.6rem;
+  border-radius: var(--border-radius-sm);
+  transition: all 0.2s;
+}
+
+.buttonIcon:hover {
+  background-color: var(--color-grey-100);
+}
+
+.buttonIcon svg {
+  width: 2.65rem;
+  height: 2.65rem;
+  color: var(--color-brand-600);
+}

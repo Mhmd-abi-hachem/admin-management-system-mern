@@ -1,0 +1,45 @@
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1.2rem 0;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.error {
+  font-size: 1.4rem;
+  color: var(--color-red-700);
+}
+
+@media (max-width: 768px) {
+  .formRow {
+    gap: 0.6rem;
+    padding: 1rem 0;
+  }
+
+  .label {
+    font-size: 1.5rem;
+  }
+
+  .error {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .formRow {
+    gap: 0.5rem;
+    padding: 0.8rem 0;
+  }
+
+  .label {
+    font-size: 1.4rem;
+  }
+
+  .error {
+    font-size: 1.2rem;
+  }
+}

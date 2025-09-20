@@ -1,0 +1,23 @@
+.tag {
+  width: fit-content;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.4rem 1.2rem;
+  border-radius: 100px;
+}
+
+.blue {
+  color: var(--color-blue-700);
+  background-color: var(--color-blue-100);
+}
+
+.brand {
+  color: var(--color-brand-700);
+  background-color: var(--color-brand-100);
+}
+
+.green {
+  color: var(--color-green-700);
+  background-color: var(--color-green-100);
+}

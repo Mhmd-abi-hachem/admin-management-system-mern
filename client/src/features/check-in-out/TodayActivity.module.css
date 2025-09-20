@@ -1,0 +1,45 @@
+.today {
+  background-color: var(--color-grey-0);
+  border: 1px solid var(--color-grey-100);
+  border-radius: var(--border-radius-md);
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  grid-column: 1 / -1;
+}
+
+.todayList {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 40rem;
+}
+
+.noActivity {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  .today {
+    grid-column: 1 / span 2;
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .today {
+    padding: 1.6rem;
+    gap: 1.6rem;
+  }
+
+  .todayList {
+    max-height: 35rem;
+  }
+
+  .noActivity {
+    font-size: 1.6rem;
+  }
+}

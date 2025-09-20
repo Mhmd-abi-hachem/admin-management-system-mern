@@ -1,0 +1,27 @@
+.logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 9.6rem;
+  width: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    height: 8.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 7.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    height: 6rem;
+  }
+}

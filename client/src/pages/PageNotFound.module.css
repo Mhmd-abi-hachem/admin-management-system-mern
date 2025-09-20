@@ -1,0 +1,17 @@
+.pageNotFound {
+  height: 100vh;
+  background-color: var(--color-grey-50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.8rem;
+}
+
+.box {
+  flex: 0 1 96rem;
+  text-align: center;
+}
+
+.box h1 {
+  margin-bottom: 3.2rem;
+}
