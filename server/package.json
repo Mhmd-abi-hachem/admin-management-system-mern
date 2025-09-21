@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "supervisor server.js",
-    "start:prod": "set NODE_ENV=production && ts-node-dev --esm --respawn server.js"
+    "dev": "supervisor server.js",
+    "start": "node server.js"
   },
   "author": "Mohamad",
   "license": "ISC",

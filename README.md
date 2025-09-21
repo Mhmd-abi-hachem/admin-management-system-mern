@@ -1,7 +1,7 @@
 <h1 align="center">The Wild Oasis</h1>
 
 <div align="center">
-  <img src="./client/public/mockup.jpg" alt="The Wild Oasis Project Screenshot on Imac Apple device" style="max-width: 100%; height: auto;" />
+  <img src="./client/public/mockup-1.jpg" alt="The Wild Oasis Project Screenshot on Imac Apple device" style="max-width: 100%; height: auto;" />
 </div>
 
 <br/>
@@ -17,7 +17,7 @@
 - **Client (Frontend):** Deployed on **Vercel**
 - **Server (Backend):** Deployed on **Render**
 
-👉 [View Website](https://...vercel.app)
+👉 [View Website](https://app-the-wild-oasis.vercel.app)
 
 ---
 
