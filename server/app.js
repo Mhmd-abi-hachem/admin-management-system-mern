@@ -11,6 +11,7 @@ import usersRouter from "./routes/usersRoute.js";
 import todayRouter from "./routes/todayActivityRoute.js";
 import statsRouter from "./routes/statsRoute.js";
 import globalErrorHandler from "./controller/errorController.js";
+import AppError from "./utils/appError.js";
 
 const app = express();
 
